@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="shortcut icon" href="../assets/favicon.png" type="image/png">
+</head>
+
+<body>
+    <div class="video-container">
+
+        <video preload="auto" controls>
+            Cannot play HTML 5 video
+            in your browser.
+        </video>
+        <div class="overlay play">
+            ▶️
+        </div>
+        <div class="overlay loader">
+            Loading...
+        </div>
+    </div>
+    <div class="speed-controls">
+        <button data-speed="1">1x</button>
+        <button data-speed="1.5">1.5x</button>
+        <button data-speed="2">2x</button>
+        <button data-speed="2.5">2.5x</button>
+        <div class="spacer"></div>
+        <a href="landing-form.html">🏚️</a>
+    </div>
+    <script src="./player.js"></script>
+</body>
+
+</html>
